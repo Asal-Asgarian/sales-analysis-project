@@ -1,80 +1,85 @@
 # 📊 Sales Data Analysis Project
 
 ## 📌 Project Overview
-
-This project focuses on analyzing sales data to better understand business performance, identify trends, and extract useful insights. The goal is to practice data analysis using Python and gain experience working with real-world datasets.
+This project analyzes an international sales dataset to identify key revenue drivers, product performance, and country-level trends. The goal is to practice real-world data analysis using Python and generate business insights from raw data.
 
 ---
 
 ## 📂 Dataset
+The dataset is synthetically generated and includes 200 sales records with the following features:
 
-The dataset includes sales records with features such as:
-
-* Order date
-* Product category
-* Sales amount
-* Region or location
+- Order date  
+- Product type (Apple products)  
+- Customer country  
+- Quantity  
+- Unit price  
+- Total revenue  
 
 ---
 
 ## 🎯 Objectives
+This analysis aims to answer the following questions:
 
-The main questions explored in this project are:
-
-* Which product categories generate the highest sales?
-* How do sales change over time?
-* Which regions perform better than others?
-* Are there any noticeable patterns or trends in the data?
+- Which countries generate the highest revenue?
+- Which products perform best in terms of sales?
+- How do sales change over time?
+- What patterns can be observed in customer behavior?
 
 ---
 
 ## 🛠️ Tools & Technologies
-
-* Python
-* pandas
-* numpy
-* matplotlib
+- Python  
+- pandas  
+- matplotlib  
+- datetime  
+- random (for data generation)
 
 ---
 
 ## 🔍 Analysis Process
-
-The project follows these steps:
-
-1. Data cleaning and preprocessing
-2. Exploratory Data Analysis (EDA)
-3. Grouping and aggregating data
-4. Visualizing trends using charts
+1. Synthetic data generation with realistic business constraints  
+2. Data cleaning and preprocessing  
+3. Exploratory Data Analysis (EDA)  
+4. Aggregation by country, product, and time  
+5. Visualization of key trends  
+6. Business insight extraction  
 
 ---
 
 ## 📈 Key Insights
-
-* Sales show noticeable variation over time, suggesting possible seasonal trends.
-* Some product categories consistently perform better than others.
-* Certain regions contribute more to total sales, indicating stronger market presence.
-* There are periods with lower sales that could be improved with better strategies.
+- Revenue is highly concentrated in a few countries such as USA and UK  
+- High-value products like MacBook Pro generate the most revenue  
+- Sales show variation across months, indicating potential seasonal effects  
+- A small number of products contribute to the majority of total revenue  
 
 ---
 
 ## 💡 Business Recommendations
-
-* Focus more on high-performing product categories
-* Increase marketing efforts during peak sales periods
-* Improve strategies in low-performing regions
-* Monitor sales trends to make better data-driven decisions
+- Focus marketing efforts on top-performing countries  
+- Optimize inventory for high-revenue products  
+- Investigate seasonal trends for better sales planning  
+- Improve performance in low-revenue regions  
 
 ---
 
-## ✅ Conclusion
-
-This project demonstrates basic data analysis techniques and highlights how data can be used to understand business performance. It also serves as a foundation for more advanced data science projects.
+## 📊 Outputs
+The project generates:
+- Cleaned dataset (`clean_data.xlsx`)
+- Sales report (`sales_report.xlsx`)
+- Visual dashboard (`dashboard.png`)
 
 ---
 
 ## ▶️ How to Run
+1. Clone the repository  
+2. Install dependencies:
+   pip install pandas matplotlib  
+3. Run the scripts in order:
+   - create_excel_file.py  
+   - analysis.py  
+   - sales_report.py  
 
-1. Clone the repository
-2. Install required libraries:
-   pip install pandas numpy matplotlib
-3. Run the notebook or Python script
+---
+
+## ✅ Conclusion
+This project demonstrates an end-to-end data analysis workflow, from data generation to insight extraction and reporting. It serves as a foundation for more advanced data science and machine learning projects.
